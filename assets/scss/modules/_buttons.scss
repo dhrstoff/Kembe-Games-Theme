@@ -1,0 +1,15 @@
+.button{
+  @include button($blue);
+}
+
+.buttonEdit{
+  @include button($yellow);
+}
+
+.buttonCopy{
+  @include button($bluegreen);
+}
+
+.buttonDelete{
+  @include button($red);
+}

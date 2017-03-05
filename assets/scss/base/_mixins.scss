@@ -1,0 +1,22 @@
+@mixin border-radius($radius){
+  -webkit-border-radius:$radius;
+  -moz-border-radius:$radius;
+  border-radius:$radius;
+}
+
+@mixin button($color) {
+  width:65px;
+  color: #ffffff;
+  background-color: $color;
+  padding: 4px 20px;
+  text-decoration: none;
+  float:left;
+  transition: all 0.2s ease;
+  text-align: center;
+  font-size:.8em;
+
+  &:hover {
+    cursor: pointer;
+    background-color: mix(white, $color, 30%);
+  }
+}

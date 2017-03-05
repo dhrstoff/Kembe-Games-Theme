@@ -1,0 +1,18 @@
+.topBar{
+  height:50px;
+  background:$background-primary;
+  position: fixed;
+}
+
+.topBar .logo{
+  float:left;
+}
+
+.topBar ul{
+  float:right;
+}
+.topBar li{
+  float:left;
+  list-style: none;
+  padding: 0 20px;
+}
